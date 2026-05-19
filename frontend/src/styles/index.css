@@ -1,0 +1,25 @@
+@import './scrollbar.css';
+@import './animations.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Outfit', 'Inter', sans-serif;
+  background-color: #080808;
+  color: #f3f4f6;
+  overflow-x: hidden;
+}
+
+.carousel-gradient-overlay {
+  background: linear-gradient(to top, #080808 0%, rgba(8, 8, 8, 0.7) 40%, rgba(8, 8, 8, 0) 100%);
+}
+
+.row-gradient-left {
+  background: linear-gradient(to right, #080808 0%, rgba(8, 8, 8, 0) 100%);
+}
+
+.row-gradient-right {
+  background: linear-gradient(to left, #080808 0%, rgba(8, 8, 8, 0) 100%);
+}
