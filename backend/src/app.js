@@ -19,7 +19,7 @@ const __dirname = path.dirname(__filename);
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:5175',
+    origin: process.env.CLIENT_URL || 'https://filmi-flix-movie.vercel.app',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   })
